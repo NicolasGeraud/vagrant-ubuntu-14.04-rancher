@@ -1,24 +1,6 @@
 #!/bin/bash
 
-# disable firewall
-sudo ufw disable
-
-# install rancher
-docker run -d --restart=always -p 8080:8080 rancher/server
-
-# sleep 10 seconds
-echo "sleep 60 seconds ..."
-sleep 60
-
-# create .vimrc file
-echo "set nocompatible" >> /home/vagrant/.vimrc
-echo ".vimrc created"
-
-# remove vboxguest edition
-rm -f /home/vagrant/VBoxGuestAdditions.iso
-echo "virtualbox guest addition iso removed ..."
-
-curl -X POST --max-time 10 --retry 3 --retry-delay 5 --retry-max-time 32\
+curl -X POST \
 -H 'Accept: application/json' \
 -H 'Content-Type: application/json' \
 -d '{"description":"rancher master account key", "name":"MasterAccountKey"}' \
