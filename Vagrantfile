@@ -9,10 +9,10 @@ $vb_gui = false
 $descriptionString="
 vagrant-ubuntu-14.04-rancher 0.9.0 based on Ubuntu 14.04
 base image cxtlabs/vagrant-ubuntu-14.04
-build for VirtualBox 5.0.16
-- docker version 1.10
-- docker-compose 1.6.0
-- rancher 1.0
+build for VirtualBox 5.0.18
+- docker version 1.11.0
+- docker-compose 1.7.0
+- rancher 1.0.1
 "
 
 # All Vagrant configuration is done below. The "2" in Vagrant.configure
