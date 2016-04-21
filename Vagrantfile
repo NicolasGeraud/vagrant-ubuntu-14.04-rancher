@@ -7,7 +7,7 @@ $vb_mem = "4096"
 $vb_gui = false
 
 $descriptionString="
-vagrant-ubuntu-14.04-rancher 1.1.2 based on Ubuntu 14.04
+vagrant-ubuntu-14.04-rancher 1.1.3 based on Ubuntu 14.04
 base image cxtlabs/vagrant-ubuntu-14.04
 build for VirtualBox 5.0.18
 - docker version 1.11.0

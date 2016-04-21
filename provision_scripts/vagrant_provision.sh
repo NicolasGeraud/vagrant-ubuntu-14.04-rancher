@@ -15,9 +15,7 @@ rm -f /home/vagrant/VBoxGuestAdditions.iso
 echo "virtualbox guest addition iso removed ..."
 
 # install rancher-compose
-# cd /tmp
-# wget -q https://github.com/rancher/rancher-compose/releases/download/v0.7.4/rancher-compose-linux-amd64-v0.7.4.tar.gz
-# tar -zxvf rancher-compose-linux-amd64-v0.7.4.tar.gz
-# cp ./rancher-compose-v0.7.4/rancher-compose /usr/local/bin/rancher-compose
-# rm -r rancher-compose-v0.7.4
-# rm rancher-compose-linux-amd64-v0.7.4.tar.gz
+wget -q https://github.com/rancher/rancher-compose/releases/download/v0.7.4/rancher-compose-linux-amd64-v0.7.4.tar.gz
+tar -zxvf rancher-compose-linux-amd64-v0.7.4.tar.gz
+rm rancher-compose-linux-amd64-v0.7.4.tar.gz
+cp ./rancher-compose-v0.7.4/rancher-compose /usr/local/bin/rancher-compose
