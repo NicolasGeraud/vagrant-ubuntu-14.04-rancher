@@ -17,7 +17,7 @@
   "provisioners": [
 	   {
 	      "type": "shell",
-		    "script": "provision_scripts/packer_provision.sh"
+		  "script": "provision_scripts/packer_provision.sh"
        }
   ],
   "post-processors": [
@@ -33,9 +33,9 @@
           "artifact_type": "vagrant.box",
           "metadata":
               {
-		            "description": "vagrant-ubuntu-14.04-rancher {{user `image_version`}}",
+		        "description": "vagrant-ubuntu-14.04-rancher {{user `image_version`}}",
                 "created_at": "{{timestamp}}",
-		            "provider": "virtualbox",
+		        "provider": "virtualbox",
                 "version": "{{user `image_version`}}"
               }
       }]
