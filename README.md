@@ -2,6 +2,7 @@
 Vagrant ubuntu 14.04 base box with docker &amp; rancher
 
 [![GitHub version](https://badge.fury.io/gh/cxtlabs%2Fvagrant-ubuntu-14.04-rancher.svg)](https://badge.fury.io/gh/cxtlabs%2Fvagrant-ubuntu-14.04-rancher)
+[![Stories in Ready](https://badge.waffle.io/cxtlabs/vagrant-ubuntu-14.04-rancher.svg?label=ready&title=Ready)](http://waffle.io/cxtlabs/vagrant-ubuntu-14.04-rancher)
 
 ## Applications
 1. docker 1.11.0
