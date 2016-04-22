@@ -21,7 +21,7 @@ if errorlevel 1 goto error
 git commit -m "vagrant-ubuntu-14.04-rancher %version%"
 git push
 if errorlevel 1 goto error
-git tag -a %version% -m "vagrant-ubuntu-14.04-rancher %version%"
+git tag -a v%version% -m "vagrant-ubuntu-14.04-rancher %version%"
 if errorlevel 1 goto error
 git push --tags
 if errorlevel 1 goto error

@@ -6,10 +6,6 @@ sudo ufw disable
 # install rancher
 docker run -d --restart=always -p 8080:8080 rancher/server
 
-# sleep 10 seconds
-echo "sleep 60 seconds ..."
-sleep 60
-
 # create .vimrc file
 echo "set nocompatible" >> /home/vagrant/.vimrc
 echo ".vimrc created"

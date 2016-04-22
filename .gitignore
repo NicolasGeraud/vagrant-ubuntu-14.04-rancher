@@ -6,6 +6,7 @@
 # *~
 .vagrant/
 .bundle/
+shared/
 *.ova
 *.ovf
 *.vmdk
