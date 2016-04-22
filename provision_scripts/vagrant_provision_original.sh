@@ -18,7 +18,7 @@ echo ".vimrc created"
 rm -f /home/vagrant/VBoxGuestAdditions.iso
 echo "virtualbox guest addition iso removed ..."
 
-curl -X POST --max-time 10 --retry 3 --retry-delay 5 --retry-max-time 32\
+curl -X POST \
 -H 'Accept: application/json' \
 -H 'Content-Type: application/json' \
 -d '{"description":"rancher master account key", "name":"MasterAccountKey"}' \
