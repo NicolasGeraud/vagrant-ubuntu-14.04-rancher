@@ -5,12 +5,12 @@ $vb_mem = "4096"
 $vb_gui = false
 
 $descriptionString="
-vagrant-ubuntu-14.04-rancher 1.2.0 based on Ubuntu 14.04
+vagrant-ubuntu-14.04-rancher 1.3.0 based on Ubuntu 14.04
 base image cxtlabs/vagrant-ubuntu-14.04
-build for VirtualBox 5.0.18
+build for VirtualBox 5.0.22
 - docker version 1.11.0
 - docker-compose 1.7.0
-- rancher 1.0.1
+- rancher 1.1.0-dev4
 "
 
 # All Vagrant configuration is done below. The "2" in Vagrant.configure
